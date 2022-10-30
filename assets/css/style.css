@@ -297,7 +297,7 @@ Preloader Area CSS
   right: 20px;
   z-index: 99;
   top: 50%;
-  
+  display: none;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 30px;
