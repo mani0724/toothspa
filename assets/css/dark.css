@@ -1,0 +1,1583 @@
+/*================================================
+Default CSS
+=================================================*/
+.switch-box {
+  position: fixed;
+  z-index: 1;
+  left: 3%;
+  bottom: 63px;
+}
+
+.switch-box .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch-box .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-box .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #4d4949;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.switch-box .slider:before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  width: 30px;
+  left: 2.5px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -webkit-box-shadow: 0 0px 15px #2020203d;
+          box-shadow: 0 0px 15px #2020203d;
+  background: url(../images/night.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.switch-box input:checked + .slider {
+  background-color: #cbc1c1;
+}
+
+.switch-box input:focus + .slider {
+  background-color: #4d4949;
+}
+
+.switch-box input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+          transform: translateX(24px);
+  background: url(../images/sunny.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.switch-box .slider.round {
+  border-radius: 50px;
+}
+
+.switch-box .slider.round:before {
+  border-radius: 50%;
+}
+
+.theme-dark {
+  /* Start "Hospital Website Demo" "Covid 19 Vaccination Center Demo" Dark CSS" */
+  /* End "Hospital Website Demo" "Covid 19 Vaccination Center Demo" Dark CSS" */
+}
+
+.theme-dark body {
+  background-color: #000000;
+  color: #f1f1f1;
+}
+
+.theme-dark p {
+  color: #f1f1f1;
+}
+
+.theme-dark p a {
+  color: #f1f1f1 !important;
+}
+
+.theme-dark p a:hover {
+  color: #06a3da !important;
+}
+
+.theme-dark a {
+  color: #ffffff;
+}
+
+.theme-dark .h1, .theme-dark .h2, .theme-dark .h3, .theme-dark .h4, .theme-dark .h5, .theme-dark .h6, .theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+  color: #ffffff !important;
+}
+
+.theme-dark .h1 a, .theme-dark .h2 a, .theme-dark .h3 a, .theme-dark .h4 a, .theme-dark .h5 a, .theme-dark .h6 a, .theme-dark h1 a, .theme-dark h2 a, .theme-dark h3 a, .theme-dark h4 a, .theme-dark h5 a, .theme-dark h6 a {
+  color: #ffffff !important;
+}
+
+.theme-dark .h1 a:hover, .theme-dark .h2 a:hover, .theme-dark .h3 a:hover, .theme-dark .h4 a:hover, .theme-dark .h5 a:hover, .theme-dark .h6 a:hover, .theme-dark h1 a:hover, .theme-dark h2 a:hover, .theme-dark h3 a:hover, .theme-dark h4 a:hover, .theme-dark h5 a:hover, .theme-dark h6 a:hover {
+  color: #06a3da !important;
+}
+
+.theme-dark .middle-header-content li {
+  color: #ffffff;
+}
+
+.theme-dark .middle-header-content li span {
+  color: #ffffff;
+}
+
+.theme-dark .top-information-wrap li {
+  color: #ffffff;
+}
+
+.theme-dark .top-information-wrap li a {
+  color: #ffffff;
+}
+
+.theme-dark .top-optional-wrap li a i {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.theme-dark .navbar-area.is-sticky {
+  background-color: #161616 !important;
+}
+
+.theme-dark .main-navbar {
+  background-color: #0b0a0a;
+}
+
+.theme-dark .main-navbar .navbar .navbar-brand .white-logo {
+  display: block;
+}
+
+.theme-dark .main-navbar .navbar .navbar-brand .main-logo {
+  display: none;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #06a3da !important;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item:focus a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #06a3da !important;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
+  background: #0e0e0e;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+  border-bottom: 1px dashed #000000;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #06a3da !important;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff !important;
+  border-bottom: 1px dashed #000000;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da !important;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+  color: #06a3da;
+}
+
+.theme-dark .main-navbar .navbar .others-options .option-item .search-btn a i {
+  color: #ffffff;
+}
+
+.theme-dark .grin-care-navbar .main-navbar .navbar {
+  background-color: #0b0a0a;
+}
+
+.theme-dark .grin-care-navbar .main-navbar .others-options .option-item .cart-btn i {
+  color: #ffffff;
+}
+
+.theme-dark .main-slides-content h1 {
+  color: #000000 !important;
+}
+
+.theme-dark .main-slides-content h1 span {
+  color: #06a3da;
+}
+
+.theme-dark .main-slides-content p {
+  color: #000000;
+}
+
+.theme-dark .main-banner-item {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .dental-tourism-banner-content h1 {
+  color: #002345 !important;
+}
+
+.theme-dark .dental-tourism-banner-content p {
+  color: #486683 !important;
+}
+
+.theme-dark .skin-care-banner-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .page-banner-area {
+  background-color: #302f2f;
+}
+
+.theme-dark .single-features {
+  background-color: #272727;
+}
+
+.theme-dark .single-features-box {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-dental-tourism-features .content p {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-features-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-features-card .features-content p {
+  color: #ffffff;
+}
+
+.theme-dark .single-services .services-content {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .services-area.bg-eef9ff {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-services-box {
+  background-color: #000000;
+}
+
+.theme-dark .single-services-item {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .dental-tourism-services-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .skin-care-services-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .skin-care-services-card .services-content {
+  background-color: #000000;
+}
+
+.theme-dark .skin-care-services-card .services-content p {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-dry-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-dry-content .dry-list li.title {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-services-area::before {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-services-card {
+  background-color: #000000;
+}
+
+.theme-dark .widget-area .widget_categories ul li a {
+  color: #ffffff;
+}
+
+.theme-dark .widget-area .widget_categories ul li a:hover {
+  color: #06a3da;
+}
+
+.theme-dark .widget-area .widget_info .content {
+  background: #0e0e0e;
+}
+
+.theme-dark .services-details-overview-content p span {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-choose-content .choose-inner-content p {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-solutions-content .solutions-inner-content p {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-solutions-content .solutions-inner-content.bg-F7F7FD {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .overview-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .appointment-overview-box {
+  background-color: #272626;
+}
+
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #2a2929;
+}
+
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .about-content .about-info span {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-about-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-about-content .about-btn-with-info li a {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-about-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .pricing-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-pricing-table {
+  background-color: #000000;
+}
+
+.theme-dark .fun-facts-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .core-features-area {
+  background-color: #272626;
+}
+
+.theme-dark .core-features-area::before {
+  background-color: #000000;
+}
+
+.theme-dark .single-core-features {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-doctor .doctor-content {
+  background-color: #222121;
+}
+
+.theme-dark .single-doctor .doctor-content span {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-dentist-card .dentist-content span {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-tourists-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-team-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-team-card .team-content span {
+  color: #ffffff;
+}
+
+.theme-dark .dentist-details-content span {
+  color: #ffffff;
+}
+
+.theme-dark .dentist-details-content .content-overview p span {
+  color: #ffffff;
+}
+
+.theme-dark .dentist-details-overview-content .overview-text p span {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-inner-box .appointment-form {
+  background-color: #000000;
+}
+
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-form {
+  background-color: #000000;
+}
+
+.theme-dark .appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .appointment-form form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-form form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-form form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-appointment-form h4 {
+  color: #000000 !important;
+}
+
+.theme-dark .gallery-area.bg-091e3e {
+  background-color: #323232;
+}
+
+.theme-dark .review-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-review-item {
+  background-color: #000000;
+}
+
+.theme-dark .dental-tourism-review-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .dental-tourism-review-card {
+  background-color: #000000;
+}
+
+.theme-dark .skin-care-review-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-review-card {
+  background-color: #000000;
+}
+
+.theme-dark .eye-care-treatment-content .treatment-inner-content {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-treatment-content .treatment-inner-content p {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-before-after-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .skin-care-before-after-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+}
+
+.theme-dark .single-blog .blog-content {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .single-blog .blog-content .blog-btn {
+  color: #ffffff;
+}
+
+.theme-dark .single-blog .blog-content .entry-meta li span {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+
+.theme-dark .dental-tourism-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-blog-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .eye-care-blog-card .blog-content p {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+
+.theme-dark .blog-details-desc .article-content .entry-meta ul li {
+  color: #ffffff;
+}
+
+.theme-dark .blog-details-desc .article-content .entry-meta ul li span {
+  color: #ffffff;
+}
+
+.theme-dark .blog-details-desc .article-content .entry-meta ul li a {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-author .fn {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-metadata a {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-body .reply a {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond input {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond input::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond textarea {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond textarea::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .comments-area .comment-respond .comment-form-cookies-consent label {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-partner-inner-box {
+  background-color: #272626;
+}
+
+.theme-dark .newsletter-inner-box {
+  background-color: #2d2d2d;
+}
+
+.theme-dark .footer-area {
+  background-color: #1c1d1d;
+}
+
+.theme-dark .copyright-area {
+  background-color: #1c1d1d;
+}
+
+.theme-dark .skin-care-footer-area {
+  background-color: #1c1d1d;
+}
+
+.theme-dark .skin-care-footer-widget .info-list li {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .info-list li a {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .quick-links li a {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form p {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-footer-area {
+  background: -webkit-gradient(linear, left top, left bottom, from(#262626), to(#2e2e2e));
+  background: linear-gradient(180deg, #262626 0%, #2e2e2e 100%);
+  padding-top: 180px;
+}
+
+.theme-dark .eye-care-footer-widget .info-list li {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-footer-widget .info-list li a {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-footer-widget .quick-links li a {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-footer-widget .hours-list li {
+  color: #ffffff;
+}
+
+.theme-dark .eye-care-footer-widget .hours-list li span {
+  color: #ffffff;
+}
+
+.theme-dark .login-form {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .login-form form .form-group label {
+  color: #ffffff;
+}
+
+.theme-dark .login-form form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #2a2a2a;
+}
+
+.theme-dark .login-form form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .login-form form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .login-form form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .login-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .login-form form .lost-your-password a {
+  color: #ffffff;
+}
+
+.theme-dark .register-form {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .register-form form .form-group label {
+  color: #ffffff;
+}
+
+.theme-dark .register-form form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #2a2a2a;
+}
+
+.theme-dark .register-form form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .register-form form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .register-form form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .register-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .faq-accordion .accordion .accordion-title {
+  background-color: #212020;
+  color: #ffffff;
+}
+
+.theme-dark .faq-accordion .accordion .accordion-content {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+
+.theme-dark .coming-soon-content {
+  background: #0e0e0e;
+}
+
+.theme-dark .coming-soon-content .newsletter-form {
+  background-color: #000000;
+}
+
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .contact-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .contact-form form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .contact-form form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .contact-form form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .contact-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #0CB8B6 !important;
+}
+
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #0CB8B6 !important;
+}
+
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+}
+
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #0CB8B6 !important;
+}
+
+.theme-dark .covid-banner-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-banner-content .banner-btn-with-info li {
+  color: #ffffff;
+}
+
+.theme-dark .covid-banner-content .banner-btn-with-info li.title span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-check-form-area::before {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-about-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-about-area .list li {
+  color: #ffffff;
+}
+
+.theme-dark .covid-registration-shape {
+  opacity: 10%;
+}
+
+.theme-dark .covid-registration-form label {
+  color: #ffffff;
+}
+
+.theme-dark .covid-registration-form .bottom-title span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-registration-form .bottom-title span a {
+  color: #ffffff;
+}
+
+.theme-dark .country-select .country-list .country-name, .theme-dark .country-select .country-list .flag {
+  color: #0e0e0e;
+}
+
+.theme-dark .covid-process-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-tracker-area {
+  position: relative;
+  z-index: 1;
+}
+
+.theme-dark .covid-tracker-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  z-index: -1;
+}
+
+.theme-dark .covid-tracker-card {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+}
+
+.theme-dark .covid-tracker-card .tracker-content p .one {
+  color: #ffffff;
+}
+
+.theme-dark .covid-tracker-card .tracker-content p .one b {
+  color: #ffffff;
+}
+
+.theme-dark .covid-tracker-card .tracker-content p .two {
+  color: #ffffff;
+}
+
+.theme-dark .covid-protection-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-protection-area::before {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-protection-content .content h3 {
+  color: #ffffff !important;
+}
+
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-item {
+  border: 1px solid #E2E5EA;
+}
+
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title.active {
+  color: #000000;
+}
+
+.theme-dark .covid-testimonials-inner {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-blog-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-blog-card .blog-content {
+  background-color: #000000;
+}
+
+.theme-dark .covid-blog-card .blog-content span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-card .blog-content .news-btn {
+  color: #ffffff;
+}
+
+.theme-dark .covid-page-banner-area {
+  background-color: #0b0a0a;
+}
+
+.theme-dark .covid-page-banner-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .covid-page-banner-content .list li a {
+  color: #ffffff;
+}
+
+.theme-dark .covid-doctors-card .doctors-content {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-registration-area.bg-F1F5FE {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-testimonials-wrap-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-testimonials-wrap-card .info .title span {
+  color: #ffffff;
+}
+
+.theme-dark .how-vaccines-work-desc .content p {
+  color: #ffffff;
+}
+
+.theme-dark .how-vaccines-work-sidebar .sidebar-box {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li {
+  border-bottom: 1px solid #000000;
+}
+
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li a {
+  color: #ffffff;
+}
+
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li a::before {
+  color: #ffffff;
+}
+
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li:last-child {
+  border-bottom: none;
+}
+
+.theme-dark .covid-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+
+.theme-dark .covid-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+
+.theme-dark .covid-faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .content span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .article-tag span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-body .comment-content p {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="date"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="time"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="datetime-local"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="week"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="month"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="text"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="email"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="url"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="password"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="search"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="tel"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="number"], .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea {
+  background-color: #0b0a0a;
+  border: 1px solid #0b0a0a;
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="date"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="time"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="week"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="month"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="text"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="email"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="url"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="password"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="search"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="tel"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="number"]::-webkit-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="date"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="time"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="week"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="month"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="text"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="email"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="url"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="password"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="search"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="tel"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="number"]:-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="date"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="time"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="week"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="month"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="text"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="email"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="url"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="password"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="search"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="tel"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="number"]::-ms-input-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="date"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="time"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="week"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="month"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="text"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="email"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="url"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="password"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="search"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="tel"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type="number"]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_search form .search-field {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_search form .search-field::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_search form .search-field:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_search form .search-field::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_search form .search-field::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .covid-widget-area .widget_grin_posts_thumb {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-widget-area .widget_categories {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-widget-area .widget_tag_cloud {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-info-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .covid-info-card span {
+  color: #ffffff;
+}
+
+.theme-dark .covid-info-card span a {
+  color: #ffffff;
+}
+
+.theme-dark .covid-appointment-form label {
+  color: #ffffff;
+}
+
+.theme-dark .covid-contact-form label {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-top-area .top-optional-wrap li a i {
+  border: none;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-brand {
+  color: #13A8B4;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff !important;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #13A8B4 !important;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #13A8B4 !important;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+}
+
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #13A8B4 !important;
+}
+
+.theme-dark .hospital-specialist-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .hospital-about-area {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .hospital-about-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #06a3da;
+}
+
+.theme-dark .hospital-services-card {
+  background-color: #0e0e0e;
+  border-top: 5px solid #0b0a0a;
+  border-bottom: 5px solid #0b0a0a;
+  border-left: 2px solid #0b0a0a;
+  border-right: 2px solid #0b0a0a;
+}
+
+.theme-dark .hospital-skills-area {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #06a3da;
+}
+
+.theme-dark .hospital-team-card {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .hospital-team-card .team-content span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-app-area {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-app-content .list li {
+  background-color: #000000;
+}
+
+.theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #06a3da;
+}
+
+.theme-dark .hospital-testimonials-card p {
+  background-color: #0e0e0e;
+  padding: 25px;
+  border-top: 14px solid #0b0a0a;
+  border-bottom: 14px solid #0b0a0a;
+  border-left: 5px solid #0b0a0a;
+  border-right: 5px solid #0b0a0a;
+}
+
+.theme-dark .hospital-testimonials-card p::before {
+  background: #0b0a0a;
+}
+
+.theme-dark .hospital-testimonials-card .info-content .info .title span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-area {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-blog-area::before {
+  background-color: #0b0a0a;
+}
+
+.theme-dark .hospital-blog-card .blog-content {
+  background-color: #000000;
+}
+
+.theme-dark .hospital-blog-card .blog-content .meta li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-card .blog-content .meta li a {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-information-card {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-information-card .content p {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-pagination .page-numbers {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-choice-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_search form .search-field {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_search form .search-field::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_search form .search-field:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_search form .search-field::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_search form .search-field::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_categories {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-widget-area .widget_download_file {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-widget-area .widget_download_file .download-file-list li .title span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-widget-area .widget_grin_posts_thumb {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-widget-area .widget_tag_cloud {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-services-details-desc .services-details-inner-content .list li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-item {
+  border: 1px solid #0e0e0e;
+}
+
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-title {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-page-banner-content h3 {
+  color: #0A335B !important;
+}
+
+.theme-dark .hospital-services-area.bg-F8F8F8 {
+  background-color: #0b0a0a;
+}
+
+.theme-dark .hospital-appointment-area-with-color {
+  background-color: #0e0e0e;
+}
+
+.theme-dark .hospital-portfolio-card .portfolio-content {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-portfolio-card .portfolio-content span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-portfolio-card:hover .portfolio-content {
+  background-color: #06a3da;
+}
+
+.theme-dark .hospital-portfolio-details-info {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-portfolio-details-info .list li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-portfolio-details-info .list li span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-content .meta li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-content .meta li a {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-quote {
+  background: #0e0e0e;
+  border-top: 5px solid #0b0a0a;
+  border-bottom: 5px solid #0b0a0a;
+  border-left: 10px solid #0b0a0a;
+  border-right: 10px solid #0b0a0a;
+}
+
+.theme-dark .hospital-blog-details-desc .article-quote p {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .list li {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .blog-details-inner-content p {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-tag .tag-list span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-tag .tag-list a {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .article-tag .share-list span {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="date"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="time"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="datetime-local"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="week"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="month"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="text"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="email"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="url"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="password"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="search"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="tel"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="number"], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea {
+  background: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="date"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="time"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="week"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="month"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="text"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="email"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="url"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="password"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="search"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="tel"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="number"]::-webkit-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="date"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="time"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="week"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="month"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="text"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="email"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="url"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="password"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="search"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="tel"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="number"]:-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="date"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="time"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="week"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="month"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="text"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="email"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="url"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="password"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="search"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="tel"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="number"]::-ms-input-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="date"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="time"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="datetime-local"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="week"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="month"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="text"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="email"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="url"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="password"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="search"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="tel"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type="number"]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-contact-form {
+  background: #0e0e0e;
+}
+
+.theme-dark .hospital-contact-form .form-group .form-control {
+  background-color: #0b0a0a;
+  border: 1px solid #0b0a0a;
+  color: #ffffff;
+}
+
+.theme-dark .hospital-contact-form .form-group .form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-contact-form .form-group .form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-contact-form .form-group .form-control::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.theme-dark .hospital-contact-form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 991px) {
+  .theme-dark .navbar-area {
+    background-color: #292828;
+  }
+  .theme-dark .main-responsive-nav .mean-container a.meanmenu-reveal span {
+    background: #ffffff;
+  }
+  .theme-dark .main-responsive-nav .logo .main-logo {
+    display: none;
+  }
+  .theme-dark .main-responsive-nav .logo .white-logo {
+    display: block;
+  }
+  .theme-dark .others-option-for-responsive .dot-menu {
+    top: -42px;
+  }
+  .theme-dark .others-option-for-responsive .dot-menu .inner .circle {
+    background-color: #ffffff;
+  }
+  .theme-dark .others-option-for-responsive .others-option-for-responsive .container .container {
+    background-color: #292828;
+  }
+}
+/*# sourceMappingURL=dark.css.map */
