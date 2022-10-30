@@ -6,6 +6,7 @@ Default CSS
   z-index: 1;
   left: 3%;
   bottom: 63px;
+  display: none;
 }
 
 .switch-box .switch {
@@ -54,6 +55,7 @@ Default CSS
 
 .switch-box input:checked + .slider {
   background-color: #cbc1c1;
+  display: none;
 }
 
 .switch-box input:focus + .slider {
