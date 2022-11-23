@@ -31,6 +31,7 @@ Default CSS
   background: #4d4949;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  display: none;
 }
 
 .switch-box .slider:before {
@@ -95,7 +96,7 @@ Default CSS
 }
 
 .theme-dark p a:hover {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark a {
@@ -111,7 +112,7 @@ Default CSS
 }
 
 .theme-dark .h1 a:hover, .theme-dark .h2 a:hover, .theme-dark .h3 a:hover, .theme-dark .h4 a:hover, .theme-dark .h5 a:hover, .theme-dark .h6 a:hover, .theme-dark h1 a:hover, .theme-dark h2 a:hover, .theme-dark h3 a:hover, .theme-dark h4 a:hover, .theme-dark h5 a:hover, .theme-dark h6 a:hover {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark .middle-header-content li {
@@ -156,11 +157,11 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a.active {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item:focus a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item.active a {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -173,7 +174,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
@@ -182,7 +183,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da !important;
+  color: #239156 !important;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -190,7 +191,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -198,7 +199,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -206,7 +207,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -214,7 +215,7 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -222,31 +223,31 @@ Default CSS
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-navbar .navbar .others-options .option-item .search-btn a i {
@@ -266,7 +267,7 @@ Default CSS
 }
 
 .theme-dark .main-slides-content h1 span {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .main-slides-content p {
@@ -366,7 +367,7 @@ Default CSS
 }
 
 .theme-dark .widget-area .widget_categories ul li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .theme-dark .widget-area .widget_info .content {
@@ -1268,7 +1269,7 @@ Default CSS
 }
 
 .theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .theme-dark .hospital-services-card {
@@ -1289,7 +1290,7 @@ Default CSS
 }
 
 .theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .theme-dark .hospital-team-card {
@@ -1314,7 +1315,7 @@ Default CSS
 }
 
 .theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-]:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .theme-dark .hospital-testimonials-card p {
@@ -1454,7 +1455,7 @@ Default CSS
 }
 
 .theme-dark .hospital-portfolio-card:hover .portfolio-content {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .theme-dark .hospital-portfolio-details-info {

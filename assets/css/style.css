@@ -75,7 +75,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #06a3da;
+  color: #239156;
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ Default btn CSS
 =================================================*/
 .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   padding: 18px 35px;
   font-size: 15px;
@@ -162,7 +162,7 @@ Default btn CSS
 }
 
 .default-btn:hover {
-  background-color: #124390;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -186,7 +186,7 @@ Section Title CSS
 }
 
 .section-title-warp .sub-title i {
-  color: #14e49a;
+  color: #239156;
   margin-right: 5px;
   font-size: 14px;
 }
@@ -226,7 +226,7 @@ Section Title CSS
 }
 
 .section-title .sub-title i {
-  color: #14e49a;
+  color: #239156;
   margin-right: 5px;
   font-size: 14px;
 }
@@ -262,7 +262,7 @@ Preloader Area CSS
 .preloader .loader .sbl-half-circle-spin {
   height: 50px;
   width: 50px;
-  color: #06a3da;
+  color: #239156;
   display: inline-block;
   position: relative;
   border: 1px solid;
@@ -301,7 +301,7 @@ Preloader Area CSS
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 30px;
-  display: inline-block;
+  display: none;
   color: #ffffff;
   background-color: #82b440;
   padding: 10px 20px 10px 42px;
@@ -321,7 +321,7 @@ Preloader Area CSS
 }
 
 .buy-now-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -358,7 +358,7 @@ Top Header Area CSS
   position: absolute;
   left: 0;
   top: 2px;
-  color: #06a3da;
+  color: #239156;
   font-size: 16px;
 }
 
@@ -367,7 +367,7 @@ Top Header Area CSS
 }
 
 .top-header-information li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .top-header-optional {
@@ -396,7 +396,7 @@ Top Header Area CSS
   width: 30px;
   line-height: 30px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   text-align: center;
@@ -407,7 +407,7 @@ Top Header Area CSS
 }
 
 .top-header-optional li a i:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
@@ -429,7 +429,7 @@ Top Header Area CSS
 }
 
 .top-header-optional .languages-list .nice-select::after {
-  border-color: #06a3da;
+  border-color: #239156;
   height: 8px;
   width: 8px;
   right: 5px;
@@ -459,7 +459,7 @@ Top Header Area CSS
 }
 
 .top-header-optional .languages-list .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #239156 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -509,7 +509,7 @@ Middle Header Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #06a3da;
+  color: #239156;
   font-size: 38px;
 }
 
@@ -587,7 +587,7 @@ Navbar Area CSS
   right: 0;
   width: 0;
   height: 2px;
-  background-color: #06a3da;
+  background-color: #239156;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
@@ -602,7 +602,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item a:hover::before, .main-navbar .navbar .navbar-nav .nav-item a:focus::before, .main-navbar .navbar .navbar-nav .nav-item a.active::before {
@@ -620,7 +620,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item:hover a, .main-navbar .navbar .navbar-nav .nav-item.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -668,7 +668,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover::before, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus::before, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active::before {
@@ -690,7 +690,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -705,7 +705,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -720,7 +720,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -735,7 +735,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -750,7 +750,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -765,11 +765,11 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -778,7 +778,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -787,7 +787,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -796,7 +796,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -805,7 +805,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -814,7 +814,7 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -846,12 +846,12 @@ Navbar Area CSS
 }
 
 .main-navbar .navbar .others-options .option-item .search-btn a i:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   padding: 15px 25px;
   font-size: 15px;
@@ -913,7 +913,7 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .dot-menu:hover .inner .circle {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .others-option-for-responsive .container {
@@ -963,12 +963,12 @@ Navbar Area CSS
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .search-btn a i:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .navbar-btn .default-btn {
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   padding: 20px 35px;
   font-size: 16px;
@@ -1027,7 +1027,7 @@ Search Modal Style CSS
   line-height: 55px;
   background-color: #eeeeee;
   border-radius: 50px;
-  color: #06a3da;
+  color: #239156;
   border: none;
   font-size: 35px;
   -webkit-transition: 0.6s;
@@ -1035,7 +1035,7 @@ Search Modal Style CSS
 }
 
 .searchmodal .modal-header button.close:hover, .searchmodal .modal-header button.close:focus {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1082,7 +1082,7 @@ Search Modal Style CSS
 }
 
 .modal-search-form .search-field:focus {
-  border-color: #06a3da;
+  border-color: #239156;
 }
 
 .modal-search-form .search-field:focus::-webkit-input-placeholder {
@@ -1104,7 +1104,7 @@ Search Modal Style CSS
 .modal-search-form button {
   border: none;
   background-color: #eeeeee;
-  color: #06a3da;
+  color: #239156;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -1130,7 +1130,7 @@ Search Modal Style CSS
 }
 
 .modal-search-form button:hover, .modal-search-form button:focus {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1145,7 +1145,7 @@ Search Modal Style CSS
     font-size: 15px;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #06a3da;
+    color: #239156;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul li a i {
     display: none;
@@ -1265,7 +1265,7 @@ Main Slides Area CSS
 }
 
 .main-slides-content h1 span {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-slides-content p {
@@ -1302,7 +1302,7 @@ Main Slides Area CSS
   height: 65px;
   width: 65px;
   line-height: 65px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   font-size: 40px;
   text-align: center;
@@ -1324,7 +1324,7 @@ Main Slides Area CSS
 }
 
 .main-slides-content .slides-btn .checkup-content span a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-slides-content .slides-btn .optional-btn {
@@ -1343,7 +1343,7 @@ Main Slides Area CSS
 }
 
 .main-slides-content .slides-btn .optional-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1383,7 +1383,7 @@ Main Slides Area CSS
 
 .home-slides.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .home-slides.owl-theme:hover .owl-nav {
@@ -1431,7 +1431,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content h1 span {
-  color: #06a3da;
+  color: #239156;
 }
 
 .main-banner-content p {
@@ -1456,7 +1456,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .banner-btn .optional-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1478,7 +1478,7 @@ Features Area CSS
 }
 
 .single-features {
-  background-color: #06a3da;
+  background-color: #239156;
   padding: 45px 30px;
   border-radius: 10px;
   margin-bottom: 30px;
@@ -1496,7 +1496,7 @@ Features Area CSS
 
 .single-features .content {
   position: relative;
-  padding-left: 90px;
+  padding-left: 80px;
 }
 
 .single-features .content .icon {
@@ -1535,7 +1535,7 @@ Features Area CSS
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
   margin-bottom: 30px;
   text-align: center;
   -webkit-transition: 0.6s;
@@ -1552,11 +1552,11 @@ Features Area CSS
   width: 85px;
   line-height: 85px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
-  border: 1px dashed #06a3da;
+  border: 1px dashed #239156;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -1577,7 +1577,7 @@ Features Area CSS
 }
 
 .single-features-box:hover .icon i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1621,7 +1621,7 @@ Services Area CSS
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   text-align: center;
   border-radius: 50px;
@@ -1634,7 +1634,7 @@ Services Area CSS
   -webkit-box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
           box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.1);
   padding: 35px 30px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
   border-radius: 0 0 10px 10px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -1667,12 +1667,12 @@ Services Area CSS
 }
 
 .single-services:hover .services-image .icon i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
 .single-services:hover .services-content {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .single-services:hover .services-content h3 a {
@@ -1705,7 +1705,7 @@ Services Area CSS
   width: 80px;
   line-height: 80px;
   font-size: 45px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   text-align: center;
   border-radius: 15px;
@@ -1722,7 +1722,7 @@ Services Area CSS
 }
 
 .single-services-box h3 a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-services-box p {
@@ -1733,8 +1733,8 @@ Services Area CSS
 .single-services-box .services-btn {
   display: inline-block;
   background-color: transparent;
-  border: 1px solid #06a3da;
-  color: #06a3da;
+  border: 1px solid #239156;
+  color: #239156;
   padding: 15px 35px;
   font-size: 15px;
   font-weight: 500;
@@ -1744,7 +1744,7 @@ Services Area CSS
 }
 
 .single-services-box .services-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1797,7 +1797,7 @@ Services Area CSS
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   text-align: center;
   border-radius: 50px;
@@ -1841,7 +1841,7 @@ Services Area CSS
 }
 
 .single-services-item:hover .services-image .icon i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -1889,7 +1889,7 @@ Overview Area CSS
 }
 
 .overview-content p a {
-  color: #06a3da;
+  color: #239156;
 }
 
 /*================================================
@@ -1955,7 +1955,7 @@ Appointment Overview Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   color: #ffffff;
 }
@@ -1973,7 +1973,7 @@ Appointment Overview Area CSS
 }
 
 .appointment-overview-contact .appointment-info .call-info li span a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .appointment-overview-contact .appointment-info .call-info li:last-child {
@@ -1990,7 +1990,7 @@ Appointment Overview Area CSS
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 38px 30px;
   border-radius: 5px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
 }
 
 .appointment-overview-box .content h4 {
@@ -2013,7 +2013,7 @@ Appointment Overview Area CSS
   width: 60px;
   height: 60px;
   line-height: 60px;
-  background-color: #06a3da;
+  background-color: #239156;
   border-radius: 50%;
   position: absolute;
   left: 0;
@@ -2045,7 +2045,7 @@ Appointment Overview Area CSS
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 2px solid #06a3da;
+  border: 2px solid #239156;
   -webkit-animation: ripple 1s linear infinite;
           animation: ripple 1s linear infinite;
   -webkit-transition: 0.6s;
@@ -2069,7 +2069,7 @@ Appointment Overview Area CSS
 
 .appointment-overview-box .make-appointment-content h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #239156;
 }
 
 .appointment-overview-box .make-appointment-content form {
@@ -2121,7 +2121,7 @@ Appointment Overview Area CSS
 .appointment-overview-box .make-appointment-content form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .appointment-overview-box .make-appointment-content form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -2209,7 +2209,7 @@ About Area CSS
 }
 
 .about-content h3 span {
-  color: #06a3da;
+  color: #239156;
 }
 
 .about-content .about-list {
@@ -2238,7 +2238,7 @@ About Area CSS
   width: 25px;
   line-height: 30px;
   text-align: center;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   border-radius: 50px;
   font-size: 14px;
@@ -2259,7 +2259,7 @@ About Area CSS
   background-color: #ffffff;
   -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
@@ -2283,7 +2283,7 @@ About Area CSS
 }
 
 .about-content .about-info:hover i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -2293,7 +2293,7 @@ About Area CSS
 }
 
 .about-image .about-inner-box {
-  background-color: #06a3da;
+  background-color: #239156;
   padding: 35px 30px;
   border-radius: 10px;
   -webkit-transition: 0.6s;
@@ -2369,7 +2369,7 @@ Core Features Area CSS
   border-radius: 5px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
   -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
@@ -2386,7 +2386,7 @@ Core Features Area CSS
   background-color: #ffffff;
   -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #239156;
   font-size: 45px;
   text-align: center;
   border-radius: 50%;
@@ -2405,7 +2405,7 @@ Core Features Area CSS
 }
 
 .single-core-features h3 a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-core-features:hover {
@@ -2414,7 +2414,7 @@ Core Features Area CSS
 }
 
 .single-core-features:hover .icon i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -2438,7 +2438,7 @@ Doctor Area CSS
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 30px;
   border-radius: 0 0 10px 10px;
-  border-bottom: 2px solid #06a3da;
+  border-bottom: 2px solid #239156;
 }
 
 .single-doctor .doctor-content h3 {
@@ -2468,7 +2468,7 @@ Doctor Area CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -2517,7 +2517,7 @@ Review Area CSS
   background-color: #ffffff;
   -webkit-box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
-  color: #06a3da;
+  color: #239156;
   text-align: center;
   font-size: 30px;
   border-radius: 50%;
@@ -2563,11 +2563,11 @@ Review Area CSS
 }
 
 .single-review-item:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .single-review-item:hover .icon i {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -2593,7 +2593,7 @@ Review Area CSS
   width: 20px;
   height: 20px;
   margin: 0 5px;
-  background: #06a3da;
+  background: #239156;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   border-radius: 50%;
@@ -2617,7 +2617,7 @@ Review Area CSS
 }
 
 .review-slides.owl-theme .owl-dots .owl-dot:hover span, .review-slides.owl-theme .owl-dots .owl-dot.active span {
-  border-color: #06a3da;
+  border-color: #239156;
 }
 
 .review-slides.owl-theme .owl-dots .owl-dot:hover span::before, .review-slides.owl-theme .owl-dots .owl-dot.active span::before {
@@ -2655,7 +2655,7 @@ Blog Area CSS
   width: 60px;
   line-height: 60px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
   text-align: center;
   font-size: 15px;
   border-radius: 50%;
@@ -2666,7 +2666,7 @@ Blog Area CSS
   bottom: 20px;
   left: 20px;
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #239156;
   padding: 5px 20px;
   border-radius: 50px;
 }
@@ -2681,7 +2681,7 @@ Blog Area CSS
           box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 25px;
   border-radius: 0 0 10px 10px;
-  border-bottom: 2px solid #06a3da;
+  border-bottom: 2px solid #239156;
 }
 
 .single-blog .blog-content h3 {
@@ -2696,7 +2696,7 @@ Blog Area CSS
 }
 
 .single-blog .blog-content h3 a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-blog .blog-content .blog-btn {
@@ -2708,7 +2708,7 @@ Blog Area CSS
 }
 
 .single-blog .blog-content .blog-btn:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-blog .blog-content .entry-meta {
@@ -2751,7 +2751,7 @@ Blog Area CSS
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 16px;
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-blog .blog-content .entry-meta li span {
@@ -2761,7 +2761,7 @@ Blog Area CSS
 }
 
 .single-blog .blog-content .entry-meta li span a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-blog:hover {
@@ -2848,7 +2848,7 @@ Gallery Area CSS
   width: 40px;
   line-height: 40px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
   text-align: center;
   font-size: 25px;
   border-radius: 50px;
@@ -2857,7 +2857,7 @@ Gallery Area CSS
 }
 
 .single-gallery .content .icon a i:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -2896,7 +2896,7 @@ Appointment Area CSS
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
   max-width: 500px;
   margin-left: auto;
 }
@@ -2910,7 +2910,7 @@ Appointment Area CSS
 
 .appointment-inner-box .appointment-form h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #239156;
 }
 
 .appointment-inner-box .appointment-form form .form-group {
@@ -2958,7 +2958,7 @@ Appointment Area CSS
 .appointment-inner-box .appointment-form form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .appointment-inner-box .appointment-form form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -2985,7 +2985,7 @@ Appointment Area CSS
   background-color: #ffffff;
   padding: 30px;
   border-radius: 10px;
-  border-bottom: 1px solid #06a3da;
+  border-bottom: 1px solid #239156;
   max-width: 500px;
 }
 
@@ -2998,7 +2998,7 @@ Appointment Area CSS
 
 .appointment-form h4 i {
   margin-right: 5px;
-  color: #06a3da;
+  color: #239156;
 }
 
 .appointment-form form .form-group {
@@ -3046,7 +3046,7 @@ Appointment Area CSS
 .appointment-form form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .appointment-form form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -3073,8 +3073,8 @@ Appointment Area CSS
 Page Banner CSS
 =================================================*/
 .page-banner-area {
-  padding-top: 125px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #124390;
 }
 
@@ -3115,7 +3115,7 @@ Page Banner CSS
 }
 
 .page-banner-content .pages-list li span {
-  color: #06a3da;
+  color: #239156;
 }
 
 .page-banner-content .pages-list li:first-child {
@@ -3132,14 +3132,14 @@ Page Banner CSS
 }
 
 .page-banner-content .pages-list li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 /*================================================
 Fun Facts Area CSS
 =================================================*/
 .fun-facts-area {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .single-fun-fact {
@@ -3203,7 +3203,7 @@ Pricing Area CSS
 
 .pricing-list-tab .tabs li.current a {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .pricing-list-tab .tabs li:nth-child(1) a {
@@ -3233,7 +3233,7 @@ Pricing Area CSS
 
 .single-pricing-table .price {
   font-size: 50px;
-  color: #06a3da;
+  color: #239156;
   margin-top: 20px;
   margin-bottom: 25px;
   line-height: 1;
@@ -3256,7 +3256,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table .pricing-features li i {
-  color: #06a3da;
+  color: #239156;
   margin-right: 5px;
   font-size: 15px;
 }
@@ -3276,7 +3276,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table:hover {
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 /*================================================
@@ -3304,7 +3304,7 @@ Pagination Area CSS
 }
 
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-  background: #06a3da;
+  background: #239156;
   color: #ffffff;
 }
 
@@ -3360,7 +3360,7 @@ Login Area CSS
 }
 
 .login-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
   background-color: transparent;
 }
 
@@ -3421,7 +3421,7 @@ Login Area CSS
   transition: 0.6s;
   bottom: 0;
   content: '';
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .login-form form .lost-your-password a:hover::before {
@@ -3439,7 +3439,7 @@ Login Area CSS
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -3496,7 +3496,7 @@ Register Area CSS
 }
 
 .register-form form .form-group .form-control:focus {
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
   background-color: transparent;
 }
 
@@ -3537,7 +3537,7 @@ Register Area CSS
   width: 100%;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -3583,7 +3583,7 @@ FAQ Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #06a3da;
+  color: #239156;
   font-size: 20px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -3591,7 +3591,7 @@ FAQ Area CSS
 
 .faq-accordion .accordion .accordion-title.active i::before {
   content: "\eaed";
-  color: #06a3da;
+  color: #239156;
 }
 
 .faq-accordion .accordion .accordion-content {
@@ -3698,7 +3698,7 @@ Coming Soon Area CSS
 }
 
 .coming-soon-content #timer div {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   width: 130px;
   height: 130px;
@@ -3855,7 +3855,7 @@ Contact Area CSS
 .contact-form form .form-group .form-control:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .contact-form form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -3924,7 +3924,7 @@ Contact Area CSS
 
 .contact-info .contact-info-content h2 a {
   display: inline-block;
-  color: #06a3da;
+  color: #239156;
 }
 
 .contact-info .contact-info-content h2 a:hover {
@@ -3936,7 +3936,7 @@ Contact Area CSS
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .contact-info .contact-info-content h2 span {
@@ -3975,8 +3975,8 @@ Contact Area CSS
 
 .contact-info .contact-info-content .social li a:hover {
   color: #ffffff;
-  border-color: #06a3da;
-  background-color: #06a3da;
+  border-color: #239156;
+  background-color: #239156;
 }
 
 /*================================================
@@ -4021,7 +4021,7 @@ Services Details Area CSS
   height: 35px;
   width: 35px;
   line-height: 38px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   font-size: 16px;
   text-align: center;
@@ -4074,13 +4074,13 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_search form .search-field:focus {
-  border-color: #06a3da;
+  border-color: #239156;
 }
 
 .widget-area .widget_search form button {
   border: none;
   background-color: #eeeeee;
-  color: #06a3da;
+  color: #239156;
   height: 40px;
   width: 40px;
   position: absolute;
@@ -4104,7 +4104,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_search form button:hover, .widget-area .widget_search form button:focus {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -4140,7 +4140,7 @@ Widget Sidebar CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -4159,7 +4159,7 @@ Widget Sidebar CSS
 
 .widget-area .tagcloud a {
   display: inline-block;
-  background: #06a3da;
+  background: #239156;
   color: #ffffff;
   padding: 10px 25px;
   border: none;
@@ -4196,7 +4196,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li::before {
-  background: #06a3da;
+  background: #239156;
   height: 10px;
   width: 10px;
   content: '';
@@ -4211,7 +4211,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .widget-area .widget_grin_posts_thumb {
@@ -4250,7 +4250,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg1 {
-  background-image: url(../images/blog/blog-1.jpg);
+  background-image: url(../images/Picture\ 1.png);
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg2 {
@@ -4288,7 +4288,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_grin_posts_thumb .item .info .title a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .widget-area .widget_instagram ul {
@@ -4362,7 +4362,7 @@ Widget Sidebar CSS
   top: 0;
   bottom: 0;
   z-index: 1;
-  background-color: #06a3da;
+  background-color: #239156;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   opacity: 0;
@@ -4405,7 +4405,7 @@ Blog Details Area CSS
   width: 60px;
   line-height: 60px;
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
   text-align: center;
   font-size: 15px;
   border-radius: 50%;
@@ -4418,7 +4418,7 @@ Blog Details Area CSS
   bottom: 20px;
   left: 20px;
   display: inline-block;
-  background-color: #06a3da;
+  background-color: #239156;
   padding: 5px 20px;
   border-radius: 50px;
   -webkit-transition: 0.6s;
@@ -4430,7 +4430,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-image:hover .tag {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
@@ -4472,11 +4472,11 @@ Blog Details Area CSS
 }
 
 .blog-details-desc .article-content .entry-meta ul li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .blog-details-desc .article-content .entry-meta ul li i {
-  color: #06a3da;
+  color: #239156;
   margin-right: 2px;
 }
 
@@ -4487,7 +4487,7 @@ Blog Details Area CSS
   right: -15px;
   width: 6px;
   height: 1px;
-  background: #06a3da;
+  background: #239156;
 }
 
 .blog-details-desc .article-content .entry-meta ul li:last-child {
@@ -4524,7 +4524,7 @@ Blog Details Area CSS
   height: 35px;
   width: 35px;
   line-height: 35px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   font-size: 16px;
   border-radius: 50px;
@@ -4543,7 +4543,7 @@ blockquote, .blockquote {
   padding: 30px !important;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-left: 3px solid #06a3da;
+  border-left: 3px solid #239156;
   border-radius: 5px;
 }
 
@@ -4604,8 +4604,8 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-body .reply a:hover {
   color: #ffffff;
-  background-color: #06a3da;
-  border-color: #06a3da;
+  background-color: #239156;
+  border-color: #239156;
 }
 
 .comments-area .comment-author {
@@ -4638,7 +4638,7 @@ blockquote p, .blockquote p {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .comments-area .comment-respond {
@@ -4717,7 +4717,7 @@ blockquote p, .blockquote p {
 
 .comments-area .comment-respond input[type="date"]:focus, .comments-area .comment-respond input[type="time"]:focus, .comments-area .comment-respond input[type="datetime-local"]:focus, .comments-area .comment-respond input[type="week"]:focus, .comments-area .comment-respond input[type="month"]:focus, .comments-area .comment-respond input[type="text"]:focus, .comments-area .comment-respond input[type="email"]:focus, .comments-area .comment-respond input[type="url"]:focus, .comments-area .comment-respond input[type="password"]:focus, .comments-area .comment-respond input[type="search"]:focus, .comments-area .comment-respond input[type="tel"]:focus, .comments-area .comment-respond input[type="number"]:focus, .comments-area .comment-respond textarea:focus {
   background-color: transparent;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .comments-area .comment-respond input[type="date"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="time"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="datetime-local"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="week"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="month"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="text"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="email"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="url"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="password"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="search"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="tel"]:focus::-webkit-input-placeholder, .comments-area .comment-respond input[type="number"]:focus::-webkit-input-placeholder, .comments-area .comment-respond textarea:focus::-webkit-input-placeholder {
@@ -4788,7 +4788,7 @@ blockquote p, .blockquote p {
 }
 
 .comments-area .comment-respond .form-submit input {
-  background: #06a3da;
+  background: #239156;
   border: none;
   color: #ffffff;
   padding: 10px 30px 10px;
@@ -4837,7 +4837,7 @@ Dentist Details Area CSS
   line-height: 35px;
   border-radius: 50px;
   font-size: 16px;
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -4982,7 +4982,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .quick-links li a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-footer-widget .quick-links li a:hover::before {
@@ -4998,7 +4998,7 @@ Footer Area CSS
   height: 1px;
   -webkit-transition: 0.6s;
   transition: 0.6s;
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .single-footer-widget .quick-links li:last-child {
@@ -5066,7 +5066,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-widget-blog .item .info span a {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-footer-widget .footer-widget-blog .item .info h4 {
@@ -5084,7 +5084,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-widget-blog .item .info h4 a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 .single-footer-widget .footer-information {
@@ -5114,7 +5114,7 @@ Footer Area CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  color: #06a3da;
+  color: #239156;
   font-size: 38px;
 }
 
@@ -5131,7 +5131,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-information li span a:hover {
-  color: #06a3da;
+  color: #239156;
 }
 
 /*================================================
@@ -5156,7 +5156,7 @@ Copy Right Area CSS
 .copyright-area-content p a {
   display: inline-block;
   font-weight: 600;
-  color: #06a3da;
+  color: #239156;
 }
 
 .copyright-area-content p a:hover {
@@ -5207,7 +5207,7 @@ Go Top CSS
 }
 
 .go-top:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -5520,7 +5520,7 @@ a.active::before {
 }
 
 .dental-tourism-navbar .main-navbar .others-options .option-item .navbar-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .grin-care-navbar .main-navbar {
@@ -5669,7 +5669,7 @@ a.active::before {
 }
 
 .grin-care-navbar .main-navbar .others-options .option-item .navbar-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .others-option-for-responsive .option-inner .others-options .option-item .cart-btn {
@@ -5754,7 +5754,7 @@ Dental Tourism Banner Area CSS
 }
 
 .dental-tourism-banner-content .banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -5892,7 +5892,7 @@ Dental Tourism About Area CSS
 }
 
 .dental-tourism-about-content .about-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -5917,7 +5917,7 @@ Dental Tourism Services Area CSS
 }
 
 .dental-tourism-services-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .dental-tourism-services-area .container-fluid {
@@ -5966,7 +5966,7 @@ Dental Tourism Services Area CSS
 
 .dental-tourism-services-card:hover .services-image .icon i {
   background-color: #ffffff;
-  color: #06a3da;
+  color: #239156;
 }
 
 .dental-tourism-services-card:hover .services-content h3 a {
@@ -6050,7 +6050,7 @@ Dental Tourism Choose Area CSS
 }
 
 .dental-tourism-choose-image .video-btn i:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -6123,7 +6123,7 @@ Dental Tourism Appointment Area CSS
 .dental-tourism-appointment-form form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .dental-tourism-appointment-form form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -6189,7 +6189,7 @@ Dental Tourism Appointment Area CSS
 }
 
 .dental-tourism-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #239156 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -6200,7 +6200,7 @@ Dental Tourism Appointment Area CSS
 }
 
 .dental-tourism-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -6216,7 +6216,7 @@ Dental Tourism Dentist Area CSS
 }
 
 .dental-tourism-dentist-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .dental-tourism-dentist-card .dentist-image {
@@ -6423,7 +6423,7 @@ Dental Tourism Review Area CSS
 }
 
 .dental-tourism-review-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .dental-tourism-review-card {
@@ -6532,7 +6532,7 @@ Dental Tourism Blog Area CSS
 }
 
 .dental-tourism-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .dental-tourism-blog-card {
@@ -6912,7 +6912,7 @@ Skin Care Banner Area CSS
 }
 
 .skin-care-banner-content .banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .skin-care-banner-shape {
@@ -7073,7 +7073,7 @@ Skin Care About Area CSS
 }
 
 .skin-care-about-content .about-btn-with-info li .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .skin-care-about-content .about-btn-with-info li i {
@@ -7357,7 +7357,7 @@ Skin Care Appointment Area CSS
 .skin-care-appointment-form form .form-group .form-control:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
-  border: 1px solid #06a3da;
+  border: 1px solid #239156;
 }
 
 .skin-care-appointment-form form .form-group .form-control:focus::-webkit-input-placeholder {
@@ -7423,7 +7423,7 @@ Skin Care Appointment Area CSS
 }
 
 .skin-care-appointment-form form .form-group .nice-select .list .option.selected {
-  background-color: #06a3da !important;
+  background-color: #239156 !important;
   color: #ffffff;
   font-weight: normal;
 }
@@ -7434,7 +7434,7 @@ Skin Care Appointment Area CSS
 }
 
 .skin-care-appointment-form form .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -7450,7 +7450,7 @@ Skin Care Review Area CSS
 }
 
 .skin-care-review-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .skin-care-review-card {
@@ -7641,7 +7641,7 @@ Skin Care Blog Area CSS
 }
 
 .skin-care-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .skin-care-blog-card {
@@ -8045,7 +8045,7 @@ Eye Care Banner Area CSS
 }
 
 .eye-care-banner-content .banner-btn-with-info li.banner-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .eye-care-banner-content .banner-btn-with-info li.title {
@@ -8179,7 +8179,7 @@ Eye Care About Area CSS
 }
 
 .eye-care-about-content .about-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 /*================================================
@@ -8263,7 +8263,7 @@ Eye Care Services Area CSS
 }
 
 .eye-care-services-card .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .eye-care-services-card .number {
@@ -8313,7 +8313,7 @@ Eye Care Services Area CSS
 
 .eye-care-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
   color: #ffffff;
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .eye-care-services-slides.owl-theme:hover .owl-nav {
@@ -8394,7 +8394,7 @@ Eye Care Team Area CSS
 }
 
 .eye-care-team-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .eye-care-team-card .team-image {
@@ -8729,7 +8729,7 @@ Eye Care Blog Area CSS
 }
 
 .eye-care-blog-area .section-warp-btn .default-btn:hover {
-  background-color: #06a3da;
+  background-color: #239156;
 }
 
 .eye-care-blog-card {
@@ -8914,7 +8914,7 @@ Newsletter Area CSS
 }
 
 .newsletter-inner-box .newsletter-form button:hover {
-  background-color: #06a3da;
+  background-color: #239156;
   color: #ffffff;
 }
 
