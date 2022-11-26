@@ -297,7 +297,7 @@ Preloader Area CSS
   right: 20px;
   z-index: 99;
   top: 50%;
-  display: none;
+  position: fixed;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 30px;
@@ -1487,7 +1487,7 @@ Features Area CSS
 }
 
 .single-features.bg-f57e57 {
-  background-color: #f57e57;
+  background-color: #1475b4;
 }
 
 .single-features.bg-4a6577 {
@@ -4254,11 +4254,11 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg2 {
-  background-image: url(../images/blog/blog-2.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-227.jpg);
 }
 
 .widget-area .widget_grin_posts_thumb .item .thumb .fullimage.bg3 {
-  background-image: url(../images/blog/blog-3.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-227.jpg);
 }
 
 .widget-area .widget_grin_posts_thumb .item .info {
@@ -5041,15 +5041,15 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-widget-blog .item .thumb .fullimage.bg1 {
-  background-image: url(../images/footer/footer-2.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-26.png);
 }
 
 .single-footer-widget .footer-widget-blog .item .thumb .fullimage.bg2 {
-  background-image: url(../images/footer/footer-3.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-227.jpg);
 }
 
 .single-footer-widget .footer-widget-blog .item .thumb .fullimage.bg3 {
-  background-image: url(../images/footer/footer-4.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-227.jpg);
 }
 
 .single-footer-widget .footer-widget-blog .item .info {
