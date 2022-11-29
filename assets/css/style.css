@@ -1192,7 +1192,7 @@ Search Modal Style CSS
 Main Slides Area CSS
 =================================================*/
 .main-slides-item {
-  background-image: url(../images/main-slides/slides-bg1.jpg);
+  background-image: url(../images/main-slides/slides-bg3.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1203,11 +1203,11 @@ Main Slides Area CSS
 }
 
 .main-slides-item.item-bg2 {
-  background-image: url(../images/main-slides/slides-bg2.jpg);
+  background-image: url(../images/HOME/pediatric\ 2.jpg);
 }
 
 .main-slides-item.item-bg3 {
-  background-image: url(../images/main-slides/slides-bg3.jpg);
+  background-image: url(../images/main-slides/old.jpeg);
 }
 
 .main-slides-item.item-bg4 {
@@ -1219,7 +1219,7 @@ Main Slides Area CSS
 }
 
 .main-slides-item.item-bg5 {
-  background-image: url(../images/main-slides/slides-bg5.jpg);
+  background-image: url(../images/main-slides/oldmj.jpeg);
 }
 
 .main-slides-item.item-bg5 .main-slides-content {
@@ -2874,7 +2874,7 @@ Gallery Area CSS
 Appointment Area CSS
 =================================================*/
 .appointment-area.bg-image {
-  background-image: url(../images/appointment/appointment-bg-2.jpg);
+  background-image: url(../images/HOME/GENERAL-DENTISTRY.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2882,7 +2882,7 @@ Appointment Area CSS
 }
 
 .appointment-inner-box {
-  background-image: url(../images/appointment/appointment-bg-1.jpg);
+  background-image: url(../images/HOME/Blog/Untitled-26.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

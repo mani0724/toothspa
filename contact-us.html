@@ -51,15 +51,18 @@
 <div class="row align-items-center">
 <div class="col-lg-8 col-md-12">
 <ul class="top-header-information">
-    <li>
+  <li>
+    <i class='bx bx-envelope-open'></i>
+
+<a href="mailto:dr.mohankb@gmail.com">dr.mohankb@gmail.com</a>
+
+    </li>  
+  <li>
         <i class='bx bxs-map'></i>
          RMV 2nd Stage
         BANGALORE-94
         </li>
-        <li>
-            <i class='bx bx-envelope-open'></i>
-            <a href="">dr.mohankb@gmail.com</a>
-            </li>
+       
 </ul>
 </div>
 <div class="col-lg-4 col-md-12">
@@ -177,7 +180,9 @@ Open Hour
     
     <div class="option-item">
     <div class="navbar-btn">
-    <a href="appointment.html" class="default-btn">Book Appointment</a>
+      <button type="button" class="default-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Book Appointment
+      </button>
     </div>
     </div>
     </div>
@@ -198,15 +203,13 @@ Open Hour
     <div class="option-inner">
     <div class="others-options d-flex align-items-center">
     <div class="option-item">
-    <div class="search-btn">
-    <a class="#" href="#searchmodal" data-bs-toggle="modal" data-bs-target="#searchmodal">
-    <i class="flaticon-search"></i>
-    </a>
-    </div>
+   
     </div>
     <div class="option-item">
     <div class="navbar-btn">
-    <a href="appointment.html" class="default-btn">Book Appointment</a>
+      <button type="button" class="default-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Book Appointment
+      </button>
     </div>
     </div>
     </div>
@@ -258,7 +261,6 @@ Open Hour
 Message Us
 </span>
 <h2>Drop Us Message for Any Query</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
 </div>
 <div class="contact-form">
 <form id="contactForm">
@@ -308,7 +310,7 @@ Message Us
 <div class="contact-info-content">
 <h3>Contact Us by Phone Number or Email Address</h3>
 <h2>
-<a href="tel:+0881306298615">+088 130 629 8615</a>
+<a href="tel:+9606968344">+9606968344</a>
 <span>OR</span>
 <a href="mailto:dr.mohankb@gmail.com">dr.mohankb@gmail.com</a>
 </h2>
@@ -333,7 +335,7 @@ Message Us
 <h2>
 <a href="index.html"><img src="assets/images/toothspa.jpg"></a>
 </h2>
-<p>Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor ut labore dolore magna</p>
+<br>
 
 </div>
 </div>
@@ -427,7 +429,7 @@ BANGALORE-94</span>
     <p>
     © Toothspa is proudly created by
     <a href="www.brightads.in" target="_blank">
-        BRIGHTADS
+        BRIGHTADS 2022
     </a>
     </p>
     </div>
@@ -437,6 +439,43 @@ BANGALORE-94</span>
 
 <div class="go-top">
 <i class='bx bx-up-arrow-alt'></i>
+</div>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Make Appointment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <section class="appointment-area bg-image ptb-100">
+              <div class="container">
+              <div class="appointment-form">
+              <h4><i class="flaticon-calendar"></i> Make An Appointment</h4>
+              <form>
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name">
+              </div>
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Phone">
+              </div>
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Date">
+              </div>
+              <button type="submit" class="default-btn">Book Appointment</button>
+              </form>
+              </div>
+              </div>
+              </section>
+      </div>
+     
+    </div>
+  </div>
 </div>
 
 
